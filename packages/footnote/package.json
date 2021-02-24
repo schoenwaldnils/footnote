@@ -1,0 +1,28 @@
+{
+  "name": "@schoenwald/footnote",
+  "version": "0.0.1",
+  "description": "React component to show footnote with logo",
+  "author": "Nils Schönwald <nils@schoen.world>",
+  "homepage": "https://github.com/schoenwaldnils/react-components#readme",
+  "license": "ISC",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoenwaldnils/react-components.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/schoenwaldnils/react-components/issues"
+  },
+  "dependencies": {
+    "@schoenwald/logo": "^0.0.1"
+  }
+}

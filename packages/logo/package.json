@@ -1,0 +1,24 @@
+{
+  "name": "@schoenwald/logo",
+  "version": "0.0.1",
+  "description": "React component for Schoenwald logo",
+  "author": "Nils Schönwald <nils@schoen.world>",
+  "homepage": "https://github.com/schoenwaldnils/react-components#readme",
+  "license": "ISC",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoenwaldnils/react-components.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/schoenwaldnils/react-components/issues"
+  }
+}

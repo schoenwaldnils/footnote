@@ -1,0 +1,87 @@
+{
+  "name": "react-components",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "prebuild": "npm run bootstrap",
+    "build": "lerna run build",
+    "prewatch": "npm run bootstrap",
+    "watch": "lerna run --parallel watch",
+    "test": "npm run lint",
+    "lint": "npm run lint:ts && npm run lint:types",
+    "lint:ts": "eslint . --ext .ts,.tsx",
+    "lint:ts-fix": "eslint . --ext .ts,.tsx --fix",
+    "lint:types": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "npm"
+  ],
+  "author": "schoenwaldnils",
+  "license": "ISC",
+  "dependencies": {},
+  "peerDependencies": {
+    "@emotion/styled": ">= 11.1.5",
+    "react": ">= 17.0.1",
+    "react-dom": ">= 17.0.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "11.2.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "11.1.5",
+    "@rollup/plugin-node-resolve": "11.2.0",
+    "@rollup/plugin-typescript": "8.2.0",
+    "@schoenwald/eslint-config-typescript": "5.0.0",
+    "@storybook/addon-actions": "6.1.19",
+    "@storybook/addon-essentials": "6.1.19",
+    "@storybook/addon-links": "6.1.19",
+    "@storybook/react": "6.1.19",
+    "@svgr/rollup": "5.5.0",
+    "@svgr/webpack": "5.5.0",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-runtime": "6.26.0",
+    "eslint": "7.20.0",
+    "husky": "5.1.0",
+    "lerna": "3.22.1",
+    "lint-staged": "10.5.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "rollup": "2.39.0",
+    "rollup-plugin-typescript2": "0.30.0",
+    "typescript": "4.1.5",
+    "url-loader": "4.1.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "NODE_ENV=production lint-staged && npm run lint:types"
+    }
+  },
+  "lint-staged": {
+    "**/*.(ts|tsx)": [
+      "eslint --fix"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">1%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

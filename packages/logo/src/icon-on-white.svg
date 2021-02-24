@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-on-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M150,300 C67.1572875,300 0,232.842712 0,150 C0,67.1572875 67.1572875,0 150,0 C232.842712,0 300,67.1572875 300,150 C300,232.842712 232.842712,300 150,300 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-and-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-on-white">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="background" fill="#BA3E48" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <path d="M180,271.380005 L180,300.003237 L120,300.003237 L120,271.380005 C129.610572,273.747433 139.658631,275.003237 150,275.003237 C160.341369,275.003237 170.389428,273.747433 180,271.380005 L180,271.380005 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            <path d="M150,250 C205.228475,250 250,205.228475 250,150 C250,94.771525 205.228475,50 150,50 C94.771525,50 50,94.771525 50,150 C50,205.228475 94.771525,250 150,250 Z" id="crown" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
