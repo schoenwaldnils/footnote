@@ -1,11 +1,18 @@
-# `lorem`
+# Schoenwald footnote
 
-> TODO: description
+> React component shows Schoenwald 'made by' footnote
+
+## Install
+
+```sh
+npm install @schoenwald/footnote
+```
 
 ## Usage
 
-```
-const lorem = require('lorem');
-
-// TODO: DEMONSTRATE API
+```ts
+imoprt {
+  FootnoteLight, 
+  FootnoteDark, 
+} from '@schoenwald/footnote'
 ```

@@ -1,11 +1,20 @@
-# `lorem`
+# Schoenwald Logo
 
-> TODO: description
+> React component shows Schoenwald logo
+
+## Install
+
+```sh
+npm install @schoenwald/logo
+```
 
 ## Usage
 
-```
-const lorem = require('lorem');
-
-// TODO: DEMONSTRATE API
+```ts
+imoprt {
+  LogoLight, 
+  LogoDark, 
+  IconLight, 
+  IconDark
+} from '@schoenwald/logo'
 ```
