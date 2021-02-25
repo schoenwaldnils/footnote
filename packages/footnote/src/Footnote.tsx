@@ -1,5 +1,6 @@
+import { css } from '@emotion/react'
 import styled from '@emotion/styled'
-import { IconDark } from '@schoenwald/logo'
+import { IconDark, IconLight } from '@schoenwald/logo'
 import * as React from 'react'
 
 const Container = styled.a`
@@ -14,13 +15,26 @@ const Container = styled.a`
   cursor: pointer;
 `
 
-const StyledIcon = styled(IconDark)`
+const iconStyles = css`
   font-size: 1.4em;
 `
 
-export const Footnote: React.FC = () => (
-  <Container href="https://schoen.world/" target="schoenwald">
-    <span>Made by</span>
-    <StyledIcon />
-  </Container>
-)
+const StyledIconDark = styled(IconDark)`
+  ${iconStyles}
+`
+
+const StyledIconLight = styled(IconLight)`
+  ${iconStyles}
+`
+
+export const Footnote: React.FC<{ theme?: 'light' | 'dark' }> = ({
+  theme = 'light',
+}) => {
+  const Icon = theme === 'light' ? StyledIconDark : StyledIconLight
+  return (
+    <Container href="https://schoen.world/" target="schoenwald">
+      <span>Made by</span>
+      <Icon />
+    </Container>
+  )
+}

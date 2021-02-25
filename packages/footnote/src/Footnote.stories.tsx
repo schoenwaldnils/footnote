@@ -13,8 +13,9 @@ const DarkBg = styled.div`
 `
 
 export const Default: React.FC = () => <Footnote />
+
 export const OnDark: React.FC = () => (
   <DarkBg>
-    <Footnote />
+    <Footnote theme="dark" />
   </DarkBg>
 )
