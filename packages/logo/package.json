@@ -20,5 +20,8 @@
   },
   "bugs": {
     "url": "https://github.com/schoenwaldnils/react-components/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
