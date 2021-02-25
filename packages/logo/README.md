@@ -11,7 +11,7 @@ npm install @schoenwald/logo
 ## Usage
 
 ```ts
-imoprt {
+import {
   LogoLight, 
   LogoDark, 
   IconLight, 

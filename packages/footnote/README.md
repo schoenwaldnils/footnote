@@ -11,7 +11,7 @@ npm install @schoenwald/footnote
 ## Usage
 
 ```ts
-imoprt {
+import {
   FootnoteLight, 
   FootnoteDark, 
 } from '@schoenwald/footnote'
