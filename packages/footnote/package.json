@@ -1,6 +1,6 @@
 {
   "name": "@schoenwald/footnote",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "React component to show footnote with logo",
   "author": "Nils Schönwald <nils@schoen.world>",
   "homepage": "https://github.com/schoenwaldnils/react-components#readme",
@@ -26,6 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@schoenwald/logo": "^1.0.0-alpha.2"
+    "@schoenwald/logo": "^1.0.0"
   }
 }
