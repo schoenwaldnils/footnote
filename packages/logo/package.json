@@ -1,6 +1,6 @@
 {
   "name": "@schoenwald/logo",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "description": "React component for Schoenwald logo",
   "author": "Nils Schönwald <nils@schoen.world>",
   "homepage": "https://github.com/schoenwaldnils/react-components#readme",
