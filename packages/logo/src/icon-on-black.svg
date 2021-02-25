@@ -1,16 +1,11 @@
-<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <path d="M150 300C67.157 300 0 232.843 0 150S67.157 0 150 0s150 67.157 150 150-67.157 150-150 150z" id="a" />
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="#fff">
-      <use xlink:href="#a" />
-    </mask>
-    <use fill="#FFF" fill-rule="nonzero" xlink:href="#a" />
-    <path d="M180 271.38v28.623h-60V271.38a125.29 125.29 0 0 0 30 3.623 125.29 125.29 0 0 0 30-3.623z" fill="#BA3E48"
-      mask="url(#b)" />
-    <path d="M150 250c55.228 0 100-44.772 100-100S205.228 50 150 50 50 94.772 50 150s44.772 100 100 100z" fill="#BA3E48"
-      fill-rule="nonzero" mask="url(#b)" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-on-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-on-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M120,296.999457 C51.5327904,283.101347 0,222.568737 0,150 C0,67.1572875 67.1572875,0 150,0 C232.842712,0 300,67.1572875 300,150 C300,222.568737 248.46721,283.101347 180,296.999457 L180,266.219475 C170.411402,268.68741 160.358987,270 150,270 C139.641013,270 129.588598,268.68741 120,266.219475 L120,296.999457 Z M150,240 C199.705627,240 240,199.705627 240,150 C240,100.294373 199.705627,60 150,60 C100.294373,60 60,100.294373 60,150 C60,199.705627 100.294373,240 150,240 Z" id="Background" fill="#FFFFFF"></path>
+        <path d="M120,296.999457 L120,266.219475 C129.588598,268.68741 139.641013,270 150,270 C160.358987,270 170.411402,268.68741 180,266.219475 L180,296.999457 C170.306702,298.967092 160.273975,300 150,300 C139.726025,300 129.693298,298.967092 120,296.999457 Z" id="Stump" fill="#BA3E48"></path>
+        <path d="M150,240 C199.705627,240 240,199.705627 240,150 C240,100.294373 199.705627,60 150,60 C100.294373,60 60,100.294373 60,150 C60,199.705627 100.294373,240 150,240 Z" id="Center" fill="#BA3E48"></path>
+    </g>
 </svg>
