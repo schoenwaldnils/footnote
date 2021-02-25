@@ -11,8 +11,17 @@ npm install @schoenwald/footnote
 ## Usage
 
 ```ts
-import {
-  FootnoteLight, 
-  FootnoteDark, 
-} from '@schoenwald/footnote'
+import { Footnote } from '@schoenwald/footnote'
+```
+
+use on light backgrounds
+
+```ts
+<Footnote />
+```
+
+use on dark backgrounds
+
+```ts
+<Footnote theme="dark" />
 ```
